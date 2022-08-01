@@ -17,15 +17,10 @@ const Characters = () => {
             {<img src={character.image} alt={character.name} className />}
             <br />
             <samp>{character.name}</samp>
-            <br />
-            <samp>{character.status}</samp>
-            <br />
-            <samp>{character.gender}</samp>
-            <br />
-            <samp>{character.species}</samp>
-            <br />
-            <samp>{character.location.name}</samp>
-            <br />
+            <p>{character.status}</p>
+            <p>{character.gender}</p>
+            <p>{character.species}</p>
+            <p>{character.location.name}</p>
           </h2>
         ))}
       </div>
